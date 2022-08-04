@@ -8,28 +8,26 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        swapchat-js is a small sdk that allows you to use swapchat more quickly.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Configurable',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        simple configuration and
+        few methods
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Framework agnostic',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       You can reference this npm package in any front-end framework you like, React, Vue, Angular, etc.
       </>
     ),
   },

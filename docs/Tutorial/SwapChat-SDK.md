@@ -1,6 +1,5 @@
----
-sidebar_position: 1
----
+# SwapChat-SDK
+
 # Intro
 
 This article will show you how to use swapchat-sdk to successfully create various types of chat rooms, such as 1v1 private chats, group chats, twitter spaces based group chats, opensea collection based group chats, and single NFT based threads.
