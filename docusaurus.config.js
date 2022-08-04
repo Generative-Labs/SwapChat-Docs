@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'SwapChat-js',
   tagline: 'SwapChat-js makes web3 social easier',
-  url: '/',
-  baseUrl: '/',
+  url: 'https://generative-labs.github.io/',
+  baseUrl: '/button-sdk-documentation/',
   // baseUrl: '/button-sdk-documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
