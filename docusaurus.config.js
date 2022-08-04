@@ -8,8 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'SwapChat-js',
   tagline: 'SwapChat-js makes web3 social easier',
-  url: 'https://your-docusaurus-test-site.com',
+  url: '/',
   baseUrl: '/',
+  // baseUrl: '/button-sdk-documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
