@@ -10,7 +10,6 @@ const config = {
   tagline: 'SwapChat-js makes web3 social easier',
   url: 'https://generative-labs.github.io/',
   baseUrl: '/button-sdk-documentation/',
-  // baseUrl: '/button-sdk-documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
