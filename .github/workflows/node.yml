@@ -19,7 +19,7 @@ jobs:
         persist-credentials: false
     - name: Build
       run:  npm i && npm run build 
-      name: Deploy
+    - name: Deploy
       uses: JamesIves/github-pages-deploy-action@release/v3
       with:
       ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
