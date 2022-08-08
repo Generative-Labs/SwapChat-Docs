@@ -234,7 +234,7 @@ function App() {
 export default App;
 ```
 ## Using swapchat-js in vue
-```vue
+```html
 <template>
   <div class="hello">
     <button ref="button"></button>

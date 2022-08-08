@@ -11,7 +11,7 @@ const config = {
   // url: 'https://generative-labs.github.io/',
   // baseUrl: '/button-sdk-documentation/',
   url: 'https://generative-labs.github.io/',
-  baseUrl: '/button-sdk-documentation/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
