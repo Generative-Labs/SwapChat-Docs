@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
 # 任务
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
@@ -28,7 +28,7 @@ jobs:
       name: Deploy
       uses: JamesIves/github-pages-deploy-action@release/v3
       with:
-      ACCESS_TOKEN: ${{  secrets.ACCESS_TOKEN}}
+      ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
       REPOSITORY_NAME: HanTengfeifei/HanTengfeifei.github.io
       BRANCH: main
       FOLDER: build
