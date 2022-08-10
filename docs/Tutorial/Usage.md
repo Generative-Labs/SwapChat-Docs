@@ -1,21 +1,9 @@
-# SwapChat-SDK
+---
+sidebar_position: 1
+---
+***
 
-# Intro
-swapchat-js is a small sdk that allows you to use swapchat more quickly
-
-> You can install and experience swapchat in chrome first
-> 
-> Downloads: https://chrome.google.com/webstore/detail/swapchat/cljogniamdljbpeapjdbdigbjmipfpgh
-
-## Installation
-> npm i swap-chat-js 
-> 
-> or 
->
-> yarn add swap-chat-js
-> 
-> 
-## Usage
+# Usage
 
 ```javascript
 import SwapChatSdk from 'swap-chat-js';
@@ -38,7 +26,7 @@ const SwapChatSdkStance = new SwapChatSdk({
 SwapChatSdkStance.exect()
 ```
 
-## Using swapchat-js in react
+## Using SwaChat-js in react
 #### Twitter 1v1 chat
 ```javascript
 const params = {
