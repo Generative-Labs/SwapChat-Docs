@@ -26,3 +26,4 @@ jobs:
       REPOSITORY_NAME: HanTengfeifei/HanTengfeifei.github.io
       BRANCH: main
       FOLDER: build
+      
