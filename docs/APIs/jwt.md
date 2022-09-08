@@ -6,7 +6,7 @@ sidebar_position: 1
 ```javascript
 getSignContentByAddressAndPlatform(address: string, platform: string): Promise<string>;
 ```
-## Properties for the params parameter object
+## params for getSignContentByAddressAndPlatform method 
 Properties|Type|Value|Default|Description|Required
 ---|:----:|:----:|:-----:|:-----:|:---------:|
 |platform|string|twitter,<br />discord,<br />opensea,<br />swapchat|no|The platform <br /> that will use<br />the sdk, <br /> currently supports <br /> twitter, <br />discord, <br />opensea, <br />swapchat|yes
@@ -15,7 +15,7 @@ Properties|Type|Value|Default|Description|Required
 ```javascript
 getTokenAfterSign(signResult: string, address: string, signContent: string, userAvatar?: string): Promise<string | undefined>;
 ```
-## Properties for the params parameter object
+## params for the getTokenAfterSign method
 Properties|Type|Value|Default|Description|Required
 ---|:----:|:----:|:-----:|:-----:|:---------:|
 |signResult|string||no|the return value of MetaMask personal_sign Method request |yes
