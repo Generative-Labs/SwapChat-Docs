@@ -2,7 +2,26 @@
 sidebar_position: 1
 ---
 ***
-
+## getSignContentByAddressAndPlatform()
+```javascript
+getSignContentByAddressAndPlatform(address: string, platform: string): Promise<string>;
+```
+## Properties for the params parameter object
+Properties|Type|Value|Default|Description|Required
+---|:----:|:----:|:-----:|:-----:|:---------:|
+|platform|string|twitter,<br />discord,<br />opensea,<br />swapchat|no|The platform <br /> that will use<br />the sdk, <br /> currently supports <br /> twitter, <br />discord, <br />opensea, <br />swapchat|yes
+|address |string|MataMask address|no|MataMask address|yes
+## getTokenAfterSign()
+```javascript
+getTokenAfterSign(signResult: string, address: string, signContent: string, userAvatar?: string): Promise<string | undefined>;
+```
+## Properties for the params parameter object
+Properties|Type|Value|Default|Description|Required
+---|:----:|:----:|:-----:|:-----:|:---------:|
+|signResult|string||no|the return value of MetaMask personal_sign Method request |yes
+|address |string|MataMask address|no|MataMask address|yes
+|signContent |string| the return value from getSignContentByAddressAndPlatform method |no|the return value from getSignContentByAddressAndPlatform method|yes
+## Usage
 ```javascript
 import SwapChatSdk from 'swap-chat-js';
 
