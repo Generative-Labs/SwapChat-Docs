@@ -9,10 +9,11 @@ swapchat-js is a small sdk that allows you to use swapchat more quickly
 > Downloads: https://chrome.google.com/webstore/detail/swapchat/cljogniamdljbpeapjdbdigbjmipfpgh
 
 ## Installation
-> npm i swap-chat-js 
-> 
-> or
->
-> yarn add swap-chat-js
-> 
-> 
+```javascript
+ npm i swap-chat-js 
+```
+ or
+
+ ```javascript
+ yarn add swap-chat-js
+```
